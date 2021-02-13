@@ -1,9 +1,15 @@
 import Link from 'next/link';
 import React from 'react';
 import styles from '../../styles/Categories.module.css';
+import Head from 'next/head';
 
 function index(props) {
     return (
+        <>
+        <Head>
+        <title>Fake Shop | Categories</title>
+        
+        </Head>
         <div className={styles.flexcontainer}>
             <div className={styles.card}>
                 <div className={styles.container}>
@@ -24,6 +30,7 @@ function index(props) {
             </div> 
 
         </div>
+        </>
     );
 }
 
