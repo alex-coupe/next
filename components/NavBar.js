@@ -7,6 +7,7 @@ function NavBar(props) {
             <div className="logo">
                 <h1>Fake Shop</h1>
             </div></Link>
+            <Link href="/"><a>Home</a></Link>
             <Link href="/categories/electronics"><a>Electronics</a></Link>
             <Link href="/categories/jewellery"><a>Jewellery</a></Link>
             <Link href="/categories/men"><a>Men's Clothing</a></Link>

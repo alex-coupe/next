@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 
 function Layout({children}) {
     return (
-        <div className="layout">
+        <div className="content">
         <NavBar />
             {children}
         <Footer />
